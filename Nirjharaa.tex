@@ -1,0 +1,262 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape Nirjharaa Patel} \\ \vspace{1pt}
+    Madrid County, Vadodara, Gujarat 391410\\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ 9979665587 ~ \href{mailto:nirjharaapatel@gmail@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{nirjharaapatel@gmail.com}} ~ 
+    \href{https://www.linkedin.com/in/nirjharaa-patel-b31314221}{\raisebox{-0.2\height}\faLinkedin\ \underline{LinkedIn}}  ~
+    
+    \vspace{-15pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {P P Savani University}{May 2025}
+      {B.Tech in Computer Science and Engineering, SGPA: 8.81/10.0 }{
+      
+   }
+       \item {\textbf{Position}: GDSC Executive, Cultural Coordinator}   
+    \resumeSubHeadingListEnd
+    \vspace{-20pt}
+
+%------RELEVANT COURSEWORK-------
+\section{Relevant Coursework}
+    %\resumeSubHeadingListStart
+        \begin{multicols}{4}
+            \begin{itemize}[itemsep=-5pt, parsep=3pt]
+                \item\small Object-Oriented Programming
+                \item Full Stack Development
+                \item Artificial Intelligence
+                \item Cloud Computing
+                \item Image Processing
+                \item Data Science
+                \item Internet of Things
+                \item Computer Network
+                \item Database Management System
+                \item Data Structures and Algorithms
+                \item Mobile Application Development
+
+                \item Operating System
+                \item Software Engineering
+            \end{itemize}
+        \end{multicols}
+        \vspace{-16pt}
+        
+    %\resumeSubHeadingListEnd
+    
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Programming Languages}{: Python, JavaScript, HTML5, CSS3, Java, C, C++, R} \\
+     \textbf{Developer Tools(IDEs)}{: Visual Studio Code, MySQL, MongoDB, Eclipse, Netbeans, PyCharm} \\
+     \textbf{Technologies/Frameworks}{: GitHub, React.js, Express.js, Node.js, Arduino IDE, Spring MVC}
+ \end{itemize}
+ \vspace{-23pt}
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Digital Dept. - PGP Glass Ltd.(Blackstone Group )}{June 2023}
+      {Software Development Intern}{Surat, GJ}
+          \resumeItemListStart
+            \resumeItem{Established a website using JavaScript, HTML5, and CSS3, that facilitates the chemists to digitally register their Glass Grain Test discoveries, which are utilized further in manufacturing the products at a large scale. }
+            \resumeItem{Segregated and simplified the mainframe database which is available for the employees to navigate their way through the supply chain process using SQL and the basics of SAP.}
+            \resumeItem{Implemented robust data validation and security measures in the website's backend to ensure the integrity and confidentiality of the Glass Grain Test records. }
+       
+\resumeItem{Collaborated with the senior software developing team of the company and gained various soft skills: Leadership, Teamwork, Discipline, and Inter-Personal Relationships.}
+       
+      \resumeItemListEnd
+
+   
+    
+  \resumeSubHeadingListEnd
+\vspace{-22pt}
+
+
+
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+      
+
+        \resumeProjectHeading
+          {\textbf{Real-time Chat Application} $|$ \emph{MERN, Socket.IO, ChatEngine.io}}{Jan 2023}
+          \resumeItemListStart
+            \resumeItem{Designed and implemented a dynamic real-time chat application using the MERN stack (MongoDB, Express, React, Node.js), incorporating Socket.IO for seamless, bidirectional communication and Postman for backend testing. }
+            \resumeItem{Applied Tailwind CSS for layout optimization and DaisyUI for user interface components, delivering an aesthetically pleasing and responsive user experience. }
+            \resumeItem{Recreated the chat application leveraging ChatEngine.io with React and Node.js }
+           \resumeItemListEnd 
+          \vspace{-20pt}
+         
+ \resumeProjectHeading
+          {\textbf{Portfolio Website} $|$ \emph{HTML5, CSS3, Javascript}}{Feb 2024}
+          \resumeItemListStart
+            \resumeItem{Developed a personal portfolio website using HTML5, CSS3, and JavaScript, showcasing my projects, skills, and professional journey in a single, accessible platform. }
+            \resumeItem{Incorporated advanced CSS techniques, including the glassmorphism effect, to create a modern, visually appealing design that enhances user engagement and showcases design proficiency. }
+\resumeItem{Implemented responsive design principles and interactive JavaScript elements to ensure a seamless user experience across various devices and browsers.}
+\resumeItemListEnd
+\vspace{-20pt}
+
+\resumeProjectHeading
+          {\textbf{Python-Based KBC Quiz Game } $|$ \emph{Python}}{August 2023}
+          \resumeItemListStart
+            \resumeItem{Developed a "Kaun Banega Crorepati" (KBC) quiz game in Python, leveraging advanced programming concepts such as conditional logic, loops, and data structures to craft a game with progressive difficulty and a dynamic reward system. }
+            \resumeItem{Utilized object-oriented programming to design a robust scoring algorithm and integrated data analysis models for question selection and performance tracking, ensuring a seamless gameplay experience with exception handling. }
+\resumeItem{Created an engaging command-line interface (CLI) using Python's built-in libraries for user interaction, featuring game state persistence through file I/O operations for an enriched user engagement and gameplay continuity. }
+\resumeItemListEnd
+\vspace{-20pt}
+
+  \resumeProjectHeading
+          {\textbf{Tea Sample Classification} $|$ \emph{Arduino, EDGE Impulse}}{June 2023}
+          \resumeItemListStart
+            \resumeItem{Devised a Multi-Channel Gas Sensor which distinguishes among 6 different tea samples(Cardamom Tea, Ginger Tea, Masala Tea, Green Tea, Lemon Tea, Assam Tea). }
+            \resumeItem{Used Wio Terminal as micro-controller and Grove–Multichannel Gas Sensor V2 as a Multi-Channel Gas Sensor which detects a variety of gases, besides Carbon monoxide(CO), Nitrogen dioxide(NO2), Ethyl alcohol(C2H5CH), Volatile Organic Compounds(VOC) and etc.}   \resumeItem{Gathered data using Grove–Multichannel Gas Sensor V2 and EDGE Impulse, a low-code, no-code platform, where Sensor Readings were published and data analysis was carried out tests.}
+          \resumeItemListEnd 
+          \vspace{-13pt}
+
+       
+    \resumeSubHeadingListEnd
+
+\vspace{-15pt}
+
+
+
+
+
+%-----------INVOLVEMENT---------------
+
+
+\end{document}
